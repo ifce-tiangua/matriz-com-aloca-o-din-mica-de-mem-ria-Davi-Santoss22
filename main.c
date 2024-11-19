@@ -26,10 +26,11 @@ int main()
         for(int i = 0; i < linhas; i++){
         for(int j = 0; j < colunas; j++){
             printf("%d", matriz[i][j]);
-        }
-        if(j != colunas - 1){
+            if(j != colunas - 1){
             printf(" ");
         }
+        }
+        
         printf("\n");
     }
     }else printf("[matriz vazia]");
